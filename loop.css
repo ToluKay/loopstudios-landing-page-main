@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.alata {
+    font-family: 'Alata', sans-serif;
+}
+
+.josef {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    height: 650px;
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.head-wrap {
+    margin: 70px 150px 40px 175px;
+}
+
+.logo-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    padding: 10px 5px;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    list-style: none;
+    font-size: large;
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+.menu ul :hover {
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
+}
+
+.immerse {
+    margin-top: 100px;
+    color: white;
+    border: 3px solid white;
+    width: 665px;
+    height: 285px;
+}
+
+.immerse h1 {
+    height: 200px;
+    padding: 30px 40px;
+    font-size: 75px;
+    font-weight: 100;
+    margin: auto;
+}
